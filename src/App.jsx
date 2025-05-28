@@ -19,7 +19,7 @@ function App() {
           Click on the Vite and React logos to learn more
         </p>
         
-        <img src={images[2].lowRes}/>
+        <img onMouseEnter={hover} onMouseLeave={normal} src={images[2].lowRes}/>
       </main>
     </>
   );
