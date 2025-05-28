@@ -20,6 +20,7 @@ function App() {
         </p>
         
         <img onMouseEnter={hover} onMouseLeave={normal} src={images[2].lowRes}/>
+        <img onMouseEnter={hover} onMouseLeave={normal} src={images[3].lowRes}/>
       </main>
     </>
   );
