@@ -1,0 +1,22 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+*,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    cursor: none; 
+  }
+
+  body, a, button, input, textarea, select, label {
+    cursor: none !important;
+  }
+
+
+
+
