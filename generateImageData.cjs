@@ -24,21 +24,21 @@ highResFiles.forEach(file => {
   highResMap.set(name, `/img/highres/${file}`);
 });
 
-// Build the combined array
-const combinedImages = lowResFiles
-  .map(file => {
-    const name = path.parse(file).name;
-    const lowResPath = `/img/lowres/${file}`;
-    const highResPath = highResMap.get(name) || null; // fallback if missing
+// Build the combined object
+const combinedImages = {};
 
-    return {
-      name,
+lowResFiles.forEach(file => {
+  const name = path.parse(file).name;
+  const lowResPath = `/img/lowres/${file}`;
+  const highResPath = highResMap.get(name);
+
+  if (highResPath) {
+    combinedImages[name] = {
       lowRes: lowResPath,
       highRes: highResPath
     };
-  })
-  // Optional: filter out if no matching highRes image
-  .filter(img => img.highRes !== null);
+  }
+});
 
 // Ensure output folder exists
 const dataFolder = path.dirname(outputPath);
@@ -47,4 +47,4 @@ if (!fs.existsSync(dataFolder)) {
 }
 
 fs.writeFileSync(outputPath, JSON.stringify(combinedImages, null, 2));
-console.log('✅ Combined data.json generated!');
+console.log('✅ Named objects data.json generated!');
