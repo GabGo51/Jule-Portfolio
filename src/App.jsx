@@ -18,7 +18,15 @@ function App() {
           Click on the Vite and React logos to learn more
         </p>
         <section>
-          <Image name="anatolie_01" />
+          
+          <Image  gridColumn="2 /4 " name="chimie_01" />
+          <Image gridColumn="5 /8 " name="anatolie_01" />
+          <Image gridColumn="3 /7 " name="chimie_01" />
+          <Image gridColumn="8 /12 " name="anatolie_01" />
+          <Image gridColumn="2 /4 " name="chimie_01" />
+          <Image gridColumn="5 /8 " name="anatolie_01" />
+          
+          
           
         </section>
         

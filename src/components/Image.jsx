@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import images from "../data/data.json";
 import { MouseContext } from "../context/mouseContext";
 
-const Image = ({ name }) => {
+const Image = ({ name, gridColumn, margin }) => {
   const { hover, normal } = useContext(MouseContext);
 
   if (!images[name]) {
@@ -15,6 +15,7 @@ const Image = ({ name }) => {
   return (
     <div
       style={{
+        gridColumn: gridColumn,
         backgroundImage: `url(${lowRes})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
