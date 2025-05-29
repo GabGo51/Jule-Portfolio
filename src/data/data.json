@@ -1,102 +1,252 @@
 {
   "anatolie_01": {
+    "name": "anatolie_01",
     "lowRes": "/img/lowres/anatolie_01.jpg",
-    "highRes": "/img/highres/anatolie_01.jpg"
+    "highRes": "/img/highres/anatolie_01.jpg",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
   },
   "anatolie_02": {
+    "name": "anatolie_02",
     "lowRes": "/img/lowres/anatolie_02.jpg",
-    "highRes": "/img/highres/anatolie_02.jpg"
+    "highRes": "/img/highres/anatolie_02.jpg",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
   },
   "anatolie_03": {
+    "name": "anatolie_03",
     "lowRes": "/img/lowres/anatolie_03.jpg",
-    "highRes": "/img/highres/anatolie_03.jpg"
+    "highRes": "/img/highres/anatolie_03.jpg",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
   },
   "chimie_01": {
+    "name": "chimie_01",
     "lowRes": "/img/lowres/chimie_01.jpg",
-    "highRes": "/img/highres/chimie_01.jpg"
+    "highRes": "/img/highres/chimie_01.jpg",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
   },
   "chimie_04": {
+    "name": "chimie_04",
     "lowRes": "/img/lowres/chimie_04.jpg",
-    "highRes": "/img/highres/chimie_04.jpg"
+    "highRes": "/img/highres/chimie_04.jpg",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
   },
   "chimie_05": {
+    "name": "chimie_05",
     "lowRes": "/img/lowres/chimie_05.jpg",
-    "highRes": "/img/highres/chimie_05.jpg"
+    "highRes": "/img/highres/chimie_05.jpg",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
   },
   "errance_01": {
+    "name": "errance_01",
     "lowRes": "/img/lowres/errance_01.jpg",
-    "highRes": "/img/highres/errance_01.jpg"
+    "highRes": "/img/highres/errance_01.jpg",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
   },
   "etape_01": {
+    "name": "etape_01",
     "lowRes": "/img/lowres/etape_01.jpg",
-    "highRes": "/img/highres/etape_01.jpg"
+    "highRes": "/img/highres/etape_01.jpg",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
   },
   "etape_03": {
+    "name": "etape_03",
     "lowRes": "/img/lowres/etape_03.jpg",
-    "highRes": "/img/highres/etape_03.jpg"
+    "highRes": "/img/highres/etape_03.jpg",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
   },
   "farley_01": {
+    "name": "farley_01",
     "lowRes": "/img/lowres/farley_01.jpg",
-    "highRes": "/img/highres/farley_01.jpg"
+    "highRes": "/img/highres/farley_01.jpg",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
   },
   "img_01": {
+    "name": "img_01",
     "lowRes": "/img/lowres/img_01.jpg",
-    "highRes": "/img/highres/img_01.jpg"
+    "highRes": "/img/highres/img_01.jpg",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
   },
   "inflated_01": {
+    "name": "inflated_01",
     "lowRes": "/img/lowres/inflated_01.jpg",
-    "highRes": "/img/highres/inflated_01.jpg"
+    "highRes": "/img/highres/inflated_01.jpg",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
   },
   "mamie_01": {
+    "name": "mamie_01",
     "lowRes": "/img/lowres/mamie_01.jpg",
-    "highRes": "/img/highres/mamie_01.jpg"
+    "highRes": "/img/highres/mamie_01.jpg",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
   },
   "mayman_01": {
+    "name": "mayman_01",
     "lowRes": "/img/lowres/mayman_01.jpg",
-    "highRes": "/img/highres/mayman_01.jpg"
+    "highRes": "/img/highres/mayman_01.jpg",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
   },
   "mayman_02": {
+    "name": "mayman_02",
     "lowRes": "/img/lowres/mayman_02.jpg",
-    "highRes": "/img/highres/mayman_02.jpg"
+    "highRes": "/img/highres/mayman_02.jpg",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
   },
   "nuitblue_01": {
+    "name": "nuitblue_01",
     "lowRes": "/img/lowres/nuitblue_01.jpg",
-    "highRes": "/img/highres/nuitblue_01.jpg"
+    "highRes": "/img/highres/nuitblue_01.jpg",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
   },
   "nuitblue_02": {
+    "name": "nuitblue_02",
     "lowRes": "/img/lowres/nuitblue_02.jpg",
-    "highRes": "/img/highres/nuitblue_02.jpg"
+    "highRes": "/img/highres/nuitblue_02.jpg",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
   },
   "pdfe_01": {
+    "name": "pdfe_01",
     "lowRes": "/img/lowres/pdfe_01.jpg",
-    "highRes": "/img/highres/pdfe_01.jpg"
+    "highRes": "/img/highres/pdfe_01.jpg",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
   },
   "pdfe_02": {
+    "name": "pdfe_02",
     "lowRes": "/img/lowres/pdfe_02.jpg",
-    "highRes": "/img/highres/pdfe_02.jpg"
+    "highRes": "/img/highres/pdfe_02.jpg",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
   },
   "pdfe_03": {
+    "name": "pdfe_03",
     "lowRes": "/img/lowres/pdfe_03.jpg",
-    "highRes": "/img/highres/pdfe_03.jpg"
+    "highRes": "/img/highres/pdfe_03.jpg",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
   },
   "triplex_01": {
+    "name": "triplex_01",
     "lowRes": "/img/lowres/triplex_01.jpg",
-    "highRes": "/img/highres/triplex_01.jpg"
+    "highRes": "/img/highres/triplex_01.jpg",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
   },
   "Triplex_02": {
+    "name": "Triplex_02",
     "lowRes": "/img/lowres/Triplex_02.jpg",
-    "highRes": "/img/highres/Triplex_02.jpg"
+    "highRes": "/img/highres/Triplex_02.jpg",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
   },
   "triplex_03": {
+    "name": "triplex_03",
     "lowRes": "/img/lowres/triplex_03.jpg",
-    "highRes": "/img/highres/triplex_03.jpg"
+    "highRes": "/img/highres/triplex_03.jpg",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
   },
   "wales_01": {
+    "name": "wales_01",
     "lowRes": "/img/lowres/wales_01.jpg",
-    "highRes": "/img/highres/wales_01.jpg"
+    "highRes": "/img/highres/wales_01.jpg",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
   },
   "wales_02": {
+    "name": "wales_02",
     "lowRes": "/img/lowres/wales_02.jpg",
-    "highRes": "/img/highres/wales_02.jpg"
+    "highRes": "/img/highres/wales_02.jpg",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
   }
 }
