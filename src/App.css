@@ -1,7 +1,4 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
@@ -17,6 +14,15 @@
     cursor: none !important;
   }
 
+
+section{
+  width: 100%;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 16px; /* space between columns */
+}
 
 
 
