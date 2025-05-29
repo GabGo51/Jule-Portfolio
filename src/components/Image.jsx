@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import images from "../data/data.json";
 import { MouseContext } from "../context/mouseContext";
 
-const Image = ({ name, gridColumn,margin}) => {
+const Image = ({ name, gridColumn, margin }) => {
   const { hover, normal } = useContext(MouseContext);
 
   if (!images[name]) {
@@ -17,19 +17,18 @@ const Image = ({ name, gridColumn,margin}) => {
       style={{
         gridColumn: gridColumn,
       }}
-      onMouseEnter={hover}
-      onMouseLeave={normal}
     >
       <div
         style={{
-          marginTop : margin,
+          marginTop: margin,
           backgroundImage: `url(${lowRes})`,
           backgroundPosition: "center",
           backgroundSize: "cover",
           position: "relative",
           width: "100%",
-          
         }}
+        onMouseEnter={hover}
+        onMouseLeave={normal}
       >
         <img
           src={highRes}
@@ -39,7 +38,6 @@ const Image = ({ name, gridColumn,margin}) => {
             height: "auto",
             objectFit: "cover",
             display: "block",
-            
           }}
         />
       </div>
