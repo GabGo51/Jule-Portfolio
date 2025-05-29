@@ -5,11 +5,17 @@ import { MouseContext } from "./context/mouseContext";
 import Layer from "./components/Layer";
 import Image from "./components/Image";
 import Video from "./components/Video";
+import { ReactLenis, useLenis } from 'lenis/react'
 
 function App() {
   const { hover, normal } = useContext(MouseContext);
+  const lenis = useLenis((lenis) => {
+    // called every scroll
+    console.log(lenis)
+  })
   return (
     <>
+      <ReactLenis root />
       <Cursor />
       <main>
         <p className="read-the-docs">
