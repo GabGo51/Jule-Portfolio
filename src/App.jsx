@@ -19,7 +19,7 @@ function App() {
       <Cursor />
       <main>
         <p className="read-the-docs">
-          Click on the Vite and React logos to learn more
+          Agrofeenz tycoon
         </p>
         <section>
           <Layer>
@@ -43,6 +43,22 @@ function App() {
           </Layer>
           <Layer>
             <Image gridColumn="6 /12 " name="anatolie_04"/> 
+          </Layer>
+          <Layer>
+            <Image gridColumn="1 /7 " name="triplex_01"/>
+            <Image gridColumn="8 /13 " name="triplex_03" margin="130%" />
+          </Layer>
+          <Layer>
+            <Image gridColumn="2 /6 " name="Triplex_02"/>
+          </Layer>
+          <Layer>
+            <p>VIDEO</p>
+            <p>VIDEO</p>
+            <p>VIDEO</p>
+          </Layer>
+          <Layer>
+            <Image gridColumn="2 /5 " name="farley_01" margin="20%"/>
+            <Image gridColumn="6 /13 " name="wales_02" margin="0%" />
           </Layer>
 
           
