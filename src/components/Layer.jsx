@@ -3,6 +3,7 @@ import React from 'react';
 const Layer = ({ children, marginBottom }) => {
   return (
     <div
+      className='layer'
       style={{
         display: 'grid',
         gridTemplateColumns: 'repeat(12, 1fr)', // 12-column grid inside the layer

@@ -6,9 +6,7 @@ import Layer from "./components/Layer";
 import Image from "./components/Image";
 import Video from "./components/Video";
 
-
 function App() {
-
   const { hover, normal } = useContext(MouseContext);
   return (
     <>
@@ -18,19 +16,31 @@ function App() {
           Click on the Vite and React logos to learn more
         </p>
         <section>
-          
-          <Image  gridColumn="2 /4 " name="chimie_01" />
-          <Image gridColumn="5 /8 " name="anatolie_01" />
-          <Image gridColumn="3 /7 " name="chimie_01" />
-          <Image gridColumn="8 /12 " name="anatolie_01" />
-          <Image gridColumn="2 /4 " name="chimie_01" />
-          <Image gridColumn="5 /8 " name="anatolie_01" />
-          
-          
+          <Layer>
+            <Image gridColumn="1 /6 " name="errance_01"/>
+            <Image gridColumn="7 /13 " name="nuitblue_02" margin="50%" />
+          </Layer>
+          <Layer>
+            <p>VIDEO</p>
+            
+          </Layer>
+          <Layer>
+            <Image gridColumn="3 /7 " name="nuitblue_01"/>
+            <Image gridColumn="8 /13 " name="wales_01" margin="40%" />
+          </Layer>
+          <Layer>
+            <Image gridColumn="2 /6 " name="anatolie_03"/>
+            <Image gridColumn="7 /13 " name="anatolie_02" margin="50%" />
+          </Layer>
+          <Layer>
+            <Image gridColumn="2 /12 " name="anatolie_01"/> 
+          </Layer>
+          <Layer>
+            <Image gridColumn="6 /12 " name="anatolie_04"/> 
+          </Layer>
+
           
         </section>
-        
-        
       </main>
     </>
   );

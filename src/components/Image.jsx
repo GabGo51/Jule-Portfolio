@@ -1,8 +1,8 @@
-import React, { useContext } from 'react';
+import React, { useContext } from "react";
 import images from "../data/data.json";
 import { MouseContext } from "../context/mouseContext";
 
-const Image = ({ name, gridColumn, margin }) => {
+const Image = ({ name, gridColumn,margin}) => {
   const { hover, normal } = useContext(MouseContext);
 
   if (!images[name]) {
@@ -16,24 +16,33 @@ const Image = ({ name, gridColumn, margin }) => {
     <div
       style={{
         gridColumn: gridColumn,
-        backgroundImage: `url(${lowRes})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        position: 'relative',
       }}
       onMouseEnter={hover}
       onMouseLeave={normal}
     >
-      <img
-        src={highRes}
-        alt={name}
+      <div
         style={{
-          width: '100%',
-          height: '100%',
-          objectFit: 'cover',
-          display: 'block',
+          marginTop : margin,
+          backgroundImage: `url(${lowRes})`,
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+          position: "relative",
+          width: "100%",
+          
         }}
-      />
+      >
+        <img
+          src={highRes}
+          alt={name}
+          style={{
+            width: "100%",
+            height: "auto",
+            objectFit: "cover",
+            display: "block",
+            
+          }}
+        />
+      </div>
     </div>
   );
 };
