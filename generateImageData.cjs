@@ -1,54 +1,54 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
 
-const baseDir = path.join(__dirname, 'public/img');
-const lowResDir = path.join(baseDir, 'lowres');
-const highResDir = path.join(baseDir, 'highres');
-const outputPath = path.join(__dirname, 'src/data/data.json');
+const lowResDir = path.join(__dirname, "public/img/lowres");
+const highResDir = path.join(__dirname, "public/img/highres");
+const mp4Dir = path.join(__dirname, "public/img/mp4");
+const outputPath = path.join(__dirname, "src/data/data.json");
 
-function getImageFiles(folderPath) {
-  if (!fs.existsSync(folderPath)) {
-    console.error(`❌ Folder not found: ${folderPath}`);
-    return [];
-  }
-  return fs.readdirSync(folderPath).filter(f => /\.(jpg|jpeg|png|webp)$/i.test(f));
+const data = {};
+
+function getBaseName(filename) {
+  return path.basename(filename, path.extname(filename));
 }
 
-const lowResFiles = getImageFiles(lowResDir);
-const highResFiles = getImageFiles(highResDir);
-
-const highResMap = new Map();
-highResFiles.forEach(file => {
-  const name = path.parse(file).name;
-  highResMap.set(name, `/img/highres/${file}`);
-});
-
-const combinedImages = {};
-
-lowResFiles.forEach(file => {
-  const name = path.parse(file).name;
-  const lowResPath = `/img/lowres/${file}`;
-  const highResPath = highResMap.get(name) || null;
-
-  if (highResPath) {
-    combinedImages[name] = {
-      name,
-      lowRes: lowResPath,
-      highRes: highResPath,
-      titleFr: "",
-      titleEn: "",
-      typeFr: "",
-      typeEn: "",
-      year: "",
-      context:""
-    };
-  }
-});
-
-const dataFolder = path.dirname(outputPath);
-if (!fs.existsSync(dataFolder)) {
-  fs.mkdirSync(dataFolder, { recursive: true });
+// Read lowRes images
+if (fs.existsSync(lowResDir)) {
+  fs.readdirSync(lowResDir).forEach((file) => {
+    const name = getBaseName(file);
+    data[name] = data[name] || {};
+    data[name].lowRes = `/img/lowres/${file}`;
+  });
 }
 
-fs.writeFileSync(outputPath, JSON.stringify(combinedImages, null, 2));
-console.log('✅ data.json generated with metadata fields!');
+// Read highRes images
+if (fs.existsSync(highResDir)) {
+  fs.readdirSync(highResDir).forEach((file) => {
+    const name = getBaseName(file);
+    data[name] = data[name] || {};
+    data[name].highRes = `/img/highres/${file}`;
+  });
+}
+
+// Read mp4 videos
+if (fs.existsSync(mp4Dir)) {
+  fs.readdirSync(mp4Dir).forEach((file) => {
+    const name = getBaseName(file);
+    data[name] = data[name] || {};
+    data[name].mp4 = `/img/mp4/${file}`;
+  });
+}
+
+// Add empty fields
+for (const key in data) {
+  data[key].titleFr = data[key].titleFr || "";
+  data[key].titleEn = data[key].titleEn || "";
+  data[key].typeFr = data[key].typeFr || "";
+  data[key].typeEn = data[key].typeEn || "";
+  data[key].year = data[key].year || "";
+}
+
+// Write to src/data/data.json
+fs.writeFileSync(outputPath, JSON.stringify(data, null, 2), "utf-8");
+
+console.log("✅ src/data/data.json generated!");

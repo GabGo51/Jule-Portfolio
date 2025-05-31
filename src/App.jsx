@@ -49,8 +49,9 @@ function App() {
             <Image gridColumn="8 /13 " name="triplex_03" margin="130%" />
           </Layer>
           <Layer>
-            <Image gridColumn="2 /6 " name="Triplex_02"/>
-            
+            <Image gridColumn="2 /6 " name="triplex_02" margin="-80%"/>
+            <Video gridColumn="8 /12 " name="Ada" margin=""/>
+
           </Layer>
           <Layer>
             

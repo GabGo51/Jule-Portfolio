@@ -1,6 +1,5 @@
 {
   "anatolie_01": {
-    "name": "anatolie_01",
     "lowRes": "/img/lowres/anatolie_01.jpg",
     "highRes": "/img/highres/anatolie_01.jpg",
     "titleFr": "",
@@ -10,7 +9,6 @@
     "year": ""
   },
   "anatolie_02": {
-    "name": "anatolie_02",
     "lowRes": "/img/lowres/anatolie_02.jpg",
     "highRes": "/img/highres/anatolie_02.jpg",
     "titleFr": "",
@@ -20,7 +18,6 @@
     "year": ""
   },
   "anatolie_03": {
-    "name": "anatolie_03",
     "lowRes": "/img/lowres/anatolie_03.jpg",
     "highRes": "/img/highres/anatolie_03.jpg",
     "titleFr": "",
@@ -30,7 +27,6 @@
     "year": ""
   },
   "chimie_01": {
-    "name": "chimie_01",
     "lowRes": "/img/lowres/chimie_01.jpg",
     "highRes": "/img/highres/chimie_01.jpg",
     "titleFr": "",
@@ -40,7 +36,6 @@
     "year": ""
   },
   "chimie_04": {
-    "name": "chimie_04",
     "lowRes": "/img/lowres/chimie_04.jpg",
     "highRes": "/img/highres/chimie_04.jpg",
     "titleFr": "",
@@ -50,7 +45,6 @@
     "year": ""
   },
   "chimie_05": {
-    "name": "chimie_05",
     "lowRes": "/img/lowres/chimie_05.jpg",
     "highRes": "/img/highres/chimie_05.jpg",
     "titleFr": "",
@@ -60,21 +54,18 @@
     "year": ""
   },
   "errance_01": {
-    "name": "errance_01",
     "lowRes": "/img/lowres/errance_01.jpg",
     "highRes": "/img/highres/errance_01.jpg",
-    "titleFr": "yeurFR",
-    "titleEn": "yeurEN",
-    "typeFr": "swag",
-    "typeEn": "sweg",
-    "year": "3020", 
-    "shoutoutFr": "Merci to brobro",
-    "shoutoutEn": "thx to brobro"
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
   },
   "etape_01": {
-    "name": "etape_01",
     "lowRes": "/img/lowres/etape_01.jpg",
     "highRes": "/img/highres/etape_01.jpg",
+    "mp4": "/img/mp4/etape_01.mp4",
     "titleFr": "",
     "titleEn": "",
     "typeFr": "",
@@ -82,7 +73,6 @@
     "year": ""
   },
   "etape_03": {
-    "name": "etape_03",
     "lowRes": "/img/lowres/etape_03.jpg",
     "highRes": "/img/highres/etape_03.jpg",
     "titleFr": "",
@@ -92,7 +82,6 @@
     "year": ""
   },
   "farley_01": {
-    "name": "farley_01",
     "lowRes": "/img/lowres/farley_01.jpg",
     "highRes": "/img/highres/farley_01.jpg",
     "titleFr": "",
@@ -102,7 +91,6 @@
     "year": ""
   },
   "img_01": {
-    "name": "img_01",
     "lowRes": "/img/lowres/img_01.jpg",
     "highRes": "/img/highres/img_01.jpg",
     "titleFr": "",
@@ -112,7 +100,6 @@
     "year": ""
   },
   "inflated_01": {
-    "name": "inflated_01",
     "lowRes": "/img/lowres/inflated_01.jpg",
     "highRes": "/img/highres/inflated_01.jpg",
     "titleFr": "",
@@ -122,7 +109,6 @@
     "year": ""
   },
   "mamie_01": {
-    "name": "mamie_01",
     "lowRes": "/img/lowres/mamie_01.jpg",
     "highRes": "/img/highres/mamie_01.jpg",
     "titleFr": "",
@@ -132,7 +118,6 @@
     "year": ""
   },
   "mayman_01": {
-    "name": "mayman_01",
     "lowRes": "/img/lowres/mayman_01.jpg",
     "highRes": "/img/highres/mayman_01.jpg",
     "titleFr": "",
@@ -142,7 +127,6 @@
     "year": ""
   },
   "mayman_02": {
-    "name": "mayman_02",
     "lowRes": "/img/lowres/mayman_02.jpg",
     "highRes": "/img/highres/mayman_02.jpg",
     "titleFr": "",
@@ -152,7 +136,6 @@
     "year": ""
   },
   "nuitblue_01": {
-    "name": "nuitblue_01",
     "lowRes": "/img/lowres/nuitblue_01.jpg",
     "highRes": "/img/highres/nuitblue_01.jpg",
     "titleFr": "",
@@ -162,7 +145,6 @@
     "year": ""
   },
   "nuitblue_02": {
-    "name": "nuitblue_02",
     "lowRes": "/img/lowres/nuitblue_02.jpg",
     "highRes": "/img/highres/nuitblue_02.jpg",
     "titleFr": "",
@@ -172,7 +154,6 @@
     "year": ""
   },
   "pdfe_01": {
-    "name": "pdfe_01",
     "lowRes": "/img/lowres/pdfe_01.jpg",
     "highRes": "/img/highres/pdfe_01.jpg",
     "titleFr": "",
@@ -182,7 +163,6 @@
     "year": ""
   },
   "pdfe_02": {
-    "name": "pdfe_02",
     "lowRes": "/img/lowres/pdfe_02.jpg",
     "highRes": "/img/highres/pdfe_02.jpg",
     "titleFr": "",
@@ -192,7 +172,6 @@
     "year": ""
   },
   "pdfe_03": {
-    "name": "pdfe_03",
     "lowRes": "/img/lowres/pdfe_03.jpg",
     "highRes": "/img/highres/pdfe_03.jpg",
     "titleFr": "",
@@ -202,7 +181,6 @@
     "year": ""
   },
   "triplex_01": {
-    "name": "triplex_01",
     "lowRes": "/img/lowres/triplex_01.jpg",
     "highRes": "/img/highres/triplex_01.jpg",
     "titleFr": "",
@@ -211,10 +189,9 @@
     "typeEn": "",
     "year": ""
   },
-  "Triplex_02": {
-    "name": "Triplex_02",
-    "lowRes": "/img/lowres/Triplex_02.jpg",
-    "highRes": "/img/highres/Triplex_02.jpg",
+  "triplex_02": {
+    "lowRes": "/img/lowres/triplex_02.jpg",
+    "highRes": "/img/highres/triplex_02.jpg",
     "titleFr": "",
     "titleEn": "",
     "typeFr": "",
@@ -222,7 +199,6 @@
     "year": ""
   },
   "triplex_03": {
-    "name": "triplex_03",
     "lowRes": "/img/lowres/triplex_03.jpg",
     "highRes": "/img/highres/triplex_03.jpg",
     "titleFr": "",
@@ -232,7 +208,6 @@
     "year": ""
   },
   "wales_01": {
-    "name": "wales_01",
     "lowRes": "/img/lowres/wales_01.jpg",
     "highRes": "/img/highres/wales_01.jpg",
     "titleFr": "",
@@ -242,9 +217,128 @@
     "year": ""
   },
   "wales_02": {
-    "name": "wales_02",
     "lowRes": "/img/lowres/wales_02.jpg",
     "highRes": "/img/highres/wales_02.jpg",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
+  },
+  "anatolie_04": {
+    "highRes": "/img/highres/anatolie_04.jpg",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
+  },
+  ".DS_Store": {
+    "mp4": "/img/mp4/.DS_Store",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
+  },
+  "Ada": {
+    "mp4": "/img/mp4/Ada.mp4",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
+  },
+  "AllianceNav": {
+    "mp4": "/img/mp4/AllianceNav.mp4",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
+  },
+  "anim_02": {
+    "mp4": "/img/mp4/anim_02.mp4",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
+  },
+  "anim_03": {
+    "mp4": "/img/mp4/anim_03.mp4",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
+  },
+  "foil_01": {
+    "mp4": "/img/mp4/foil_01.mp4",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
+  },
+  "mayman_03": {
+    "mp4": "/img/mp4/mayman_03.mp4",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
+  },
+  "mtnslab_01": {
+    "mp4": "/img/mp4/mtnslab_01.mp4",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
+  },
+  "mtnslab_03": {
+    "mp4": "/img/mp4/mtnslab_03.mp4",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
+  },
+  "mtnslab_04": {
+    "mp4": "/img/mp4/mtnslab_04.mp4",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
+  },
+  "nuitblue_03": {
+    "mp4": "/img/mp4/nuitblue_03.mp4",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
+  },
+  "pdfe_04": {
+    "mp4": "/img/mp4/pdfe_04.mp4",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
+  },
+  "pdfe_05": {
+    "mp4": "/img/mp4/pdfe_05.mp4",
+    "titleFr": "",
+    "titleEn": "",
+    "typeFr": "",
+    "typeEn": "",
+    "year": ""
+  },
+  "SBP_01": {
+    "mp4": "/img/mp4/SBP_01.mp4",
     "titleFr": "",
     "titleEn": "",
     "typeFr": "",
