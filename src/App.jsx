@@ -60,8 +60,60 @@ function App() {
             <Image gridColumn="2 /5 " name="farley_01" margin="20%"/>
             <Image gridColumn="6 /13 " name="wales_02" margin="0%" />
           </Layer>
+          <Layer>
+            <Image gridColumn="2 /10 " name="inflated_01" margin="0%"/>
+          </Layer>
+          <Layer>
+            <p>VIDEO</p>
+          </Layer>
+          <Layer>
+            <Image gridColumn="2 /5 " name="pdfe_02" margin="0%"/>
+          </Layer>
+          <Layer>
+            <p>VIDEO</p>
+            <p>VIDEO</p>
+          </Layer>
+          <Layer>
+            <Image gridColumn="1 /4 " name="pdfe_03" margin="100%"/>
+            <Image gridColumn="6 /13 " name="pdfe_01" margin="0%"/>
+          </Layer>
+          <Layer>
+            <p>VIDEO</p>
+            <p>VIDEO</p>
+            <p>VIDEO</p>
+            <p>VIDEO</p> 
+          </Layer>
+          <Layer>
+            <Image gridColumn="1 /7 " name="chimie_05" margin="0%"/>
+            <Image gridColumn="10 /13 " name="img_01" margin="30%"/>
+          </Layer>
+          <Layer>
+            <Image gridColumn="3 /12 " name="chimie_01" margin="0%"/> 
+          </Layer>
+          <Layer>
+            <Image gridColumn="1 /4 " name="mamie_01" margin="0%"/>
+            <Image gridColumn="6 /11 " name="chimie_04" margin="30%"/>
+          </Layer>
+          <Layer>
+            <p>VIDEO</p>
+          </Layer>
+          <Layer>
+            <Image gridColumn="1 /10 " name="etape_01" margin="0%"/>
+          </Layer>
+          <Layer>
+            <p>VIDEO</p>
+          </Layer>
+          <Layer>
+            <Image gridColumn="1 /6 " name="etape_03" margin="0%"/>
+            <p>VIDEO</p>
+          </Layer>
+          <Layer>
+            <Image gridColumn="1 /11 " name="mayman_02" margin="0%"/>
+          </Layer>
+          <Layer>
+            <Image gridColumn="6 /12 " name="mayman_01" margin="0%"/>
+          </Layer>
 
-          
         </section>
       </main>
     </>
