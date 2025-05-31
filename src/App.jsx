@@ -50,11 +50,10 @@ function App() {
           </Layer>
           <Layer>
             <Image gridColumn="2 /6 " name="Triplex_02"/>
+            
           </Layer>
           <Layer>
-            <p>VIDEO</p>
-            <p>VIDEO</p>
-            <p>VIDEO</p>
+            
           </Layer>
           <Layer>
             <Image gridColumn="2 /5 " name="farley_01" margin="20%"/>

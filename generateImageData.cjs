@@ -39,7 +39,8 @@ lowResFiles.forEach(file => {
       titleEn: "",
       typeFr: "",
       typeEn: "",
-      year: ""
+      year: "",
+      context:""
     };
   }
 });
