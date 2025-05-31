@@ -3,24 +3,50 @@
 }
 
 *,
-  *:before,
-  *:after {
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    cursor: none; 
-  }
+*:before,
+*:after {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  cursor: none;
+}
 
-  body, a, button, input, textarea, select, label {
-    cursor: none !important;
-  }
-
+body,
+a,
+button,
+input,
+textarea,
+select,
+label {
+  cursor: none !important;
+}
 
 .layer {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: 20px;
-  
 }
 
+.img-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 0px;
+  column-gap: 8px;
+  
 
+  .title, .shoutout {
+    text-align: start;
+    width: calc(50% - 4px); /* 2 items per row, minus gap compensation */
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+  }
 
+  .type, .year {
+    text-align: end;
+    width: calc(50% - 4px); /* 2 items per row, minus gap compensation */
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+  }
+}

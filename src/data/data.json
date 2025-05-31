@@ -63,11 +63,13 @@
     "name": "errance_01",
     "lowRes": "/img/lowres/errance_01.jpg",
     "highRes": "/img/highres/errance_01.jpg",
-    "titleFr": "",
-    "titleEn": "",
-    "typeFr": "",
-    "typeEn": "",
-    "year": ""
+    "titleFr": "yeurFR",
+    "titleEn": "yeurEN",
+    "typeFr": "swag",
+    "typeEn": "sweg",
+    "year": "3020", 
+    "shoutoutFr": "Merci to brobro",
+    "shoutoutEn": "thx to brobro"
   },
   "etape_01": {
     "name": "etape_01",
