@@ -27,7 +27,7 @@ function App() {
             <Image gridColumn="7 /13 " name="nuitblue_02" margin="50%" />
           </Layer>
           <Layer>
-            <p>VIDEO</p>
+            <Video gridColumn="2 /11 " name="nuitblue_03" margin=""/>
             
           </Layer>
           <Layer>
