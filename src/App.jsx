@@ -50,11 +50,13 @@ function App() {
           </Layer>
           <Layer>
             <Image gridColumn="2 /6 " name="triplex_02" margin="-80%"/>
-            <Video gridColumn="8 /12 " name="Ada" margin=""/>
-
+            <Video gridColumn="7 /13 " name="Ada" margin=""/>
           </Layer>
           <Layer>
-            
+            <Video gridColumn="2 /12 " name="foil_01" margin=""/>
+          </Layer>
+          <Layer>
+            <Video gridColumn="3 /12 " name="AllianceNav" margin=""/>
           </Layer>
           <Layer>
             <Image gridColumn="2 /5 " name="farley_01" margin="20%"/>
@@ -64,7 +66,7 @@ function App() {
             <Image gridColumn="2 /10 " name="inflated_01" margin="0%"/>
           </Layer>
           <Layer>
-            <p>VIDEO</p>
+            <Video gridColumn="6 /13 " name="anim_02" margin=""/>
           </Layer>
           <Layer>
             <Image gridColumn="2 /5 " name="pdfe_02" margin="0%"/>

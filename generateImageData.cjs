@@ -45,6 +45,8 @@ for (const key in data) {
   data[key].titleEn = data[key].titleEn || "";
   data[key].typeFr = data[key].typeFr || "";
   data[key].typeEn = data[key].typeEn || "";
+  data[key].contextFr = data[key].year || "";
+  data[key].contextEn = data[key].year || "";
   data[key].year = data[key].year || "";
 }
 
