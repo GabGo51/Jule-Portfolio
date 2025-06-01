@@ -8,7 +8,7 @@ import "./Cursor.css"; // Import the CSS file
 const Cursor = () => {
   const { cursorType } = useContext(MouseContext);
   const { x, y } = useMousePosition();
-  console.log("lol");
+  
   
 
   return (

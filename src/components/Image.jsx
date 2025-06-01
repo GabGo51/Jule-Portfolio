@@ -8,7 +8,9 @@ const Image = ({ name, gridColumn, margin }) => {
   const [renderTransform, setRenderTransform] = useState({ x: 0, y: 0 });
 
   const containerRef = useRef(null);
+  const currentTransform = useRef({ x: 0, y: 0 });
   const targetTransform = useRef({ x: 0, y: 0 });
+  const hasMoved = useRef(false); // NEW: Track if mouse has moved
 
   if (!images[name]) {
     return <div>Image not found: {name}</div>;
@@ -22,33 +24,33 @@ const Image = ({ name, gridColumn, margin }) => {
     const offsetX = e.clientX - rect.left;
     const offsetY = e.clientY - rect.top;
 
-    // Store the intended transform, don't apply it directly
+    hasMoved.current = true; // mouse has moved, allow updates
+
     targetTransform.current = {
-      x: ((offsetX / rect.width) - 0.5) * 20,
-      y: ((offsetY / rect.height) - 0.5) * 20,
+      x: ((offsetX / rect.width) - 0.5) * 10,
+      y: ((offsetY / rect.height) - 0.5) * 10,
     };
   };
 
   useEffect(() => {
     let frame;
-    const lerp = (start, end, factor) => start + (end - start) * factor;
 
-    const update = () => {
-      setRenderTransform((prev) => ({
-        x: lerp(prev.x, targetTransform.current.x, 0.1),
-        y: lerp(prev.y, targetTransform.current.y, 0.1),
-      }));
+    const smoothFollow = () => {
+      if (hasMoved.current) {
+        currentTransform.current.x +=
+          (targetTransform.current.x - currentTransform.current.x) * 0.025;
+        currentTransform.current.y +=
+          (targetTransform.current.y - currentTransform.current.y) * 0.025;
 
-      frame = requestAnimationFrame(update);
+        setRenderTransform({ ...currentTransform.current });
+      }
+
+      frame = requestAnimationFrame(smoothFollow);
     };
 
-    frame = requestAnimationFrame(update);
+    frame = requestAnimationFrame(smoothFollow);
     return () => cancelAnimationFrame(frame);
   }, []);
-
-  const resetTransform = () => {
-    targetTransform.current = { x: 0, y: 0 };
-  };
 
   return (
     <div style={{ gridColumn: gridColumn }}>
@@ -66,11 +68,12 @@ const Image = ({ name, gridColumn, margin }) => {
         onMouseEnter={() => {
           hover();
           setIsHovered(true);
+          hasMoved.current = false; // Reset on enter
         }}
         onMouseLeave={() => {
           normal();
           setIsHovered(false);
-          resetTransform();
+          targetTransform.current = { x: 0, y: 0 };
         }}
         onMouseMove={handleMouseMove}
       >
@@ -82,7 +85,7 @@ const Image = ({ name, gridColumn, margin }) => {
             height: "auto",
             objectFit: "cover",
             display: "block",
-            transform: `translate(${renderTransform.x}px, ${renderTransform.y}px) scale(1.05)`,
+            transform: `scale(1.05) translate(${renderTransform.x}px, ${renderTransform.y}px)`,
             transition: isHovered ? "none" : "transform 0.3s ease",
             willChange: "transform",
           }}
