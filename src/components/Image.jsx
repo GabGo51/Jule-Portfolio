@@ -1,10 +1,14 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useState, useEffect, useRef } from "react";
 import images from "../data/data.json";
 import { MouseContext } from "../context/mouseContext";
 
 const Image = ({ name, gridColumn, margin }) => {
   const { hover, normal } = useContext(MouseContext);
   const [isHovered, setIsHovered] = useState(false);
+  const [renderTransform, setRenderTransform] = useState({ x: 0, y: 0 });
+
+  const containerRef = useRef(null);
+  const targetTransform = useRef({ x: 0, y: 0 });
 
   if (!images[name]) {
     return <div>Image not found: {name}</div>;
@@ -13,13 +17,43 @@ const Image = ({ name, gridColumn, margin }) => {
   const lowRes = images[name].lowRes;
   const highRes = images[name].highRes;
 
+  const handleMouseMove = (e) => {
+    const rect = containerRef.current.getBoundingClientRect();
+    const offsetX = e.clientX - rect.left;
+    const offsetY = e.clientY - rect.top;
+
+    // Store the intended transform, don't apply it directly
+    targetTransform.current = {
+      x: ((offsetX / rect.width) - 0.5) * 20,
+      y: ((offsetY / rect.height) - 0.5) * 20,
+    };
+  };
+
+  useEffect(() => {
+    let frame;
+    const lerp = (start, end, factor) => start + (end - start) * factor;
+
+    const update = () => {
+      setRenderTransform((prev) => ({
+        x: lerp(prev.x, targetTransform.current.x, 0.1),
+        y: lerp(prev.y, targetTransform.current.y, 0.1),
+      }));
+
+      frame = requestAnimationFrame(update);
+    };
+
+    frame = requestAnimationFrame(update);
+    return () => cancelAnimationFrame(frame);
+  }, []);
+
+  const resetTransform = () => {
+    targetTransform.current = { x: 0, y: 0 };
+  };
+
   return (
-    <div
-      style={{
-        gridColumn: gridColumn,
-      }}
-    >
+    <div style={{ gridColumn: gridColumn }}>
       <div
+        ref={containerRef}
         style={{
           marginTop: margin,
           backgroundImage: `url(${lowRes})`,
@@ -27,6 +61,7 @@ const Image = ({ name, gridColumn, margin }) => {
           backgroundSize: "cover",
           position: "relative",
           width: "100%",
+          overflow: "hidden",
         }}
         onMouseEnter={() => {
           hover();
@@ -35,7 +70,9 @@ const Image = ({ name, gridColumn, margin }) => {
         onMouseLeave={() => {
           normal();
           setIsHovered(false);
+          resetTransform();
         }}
+        onMouseMove={handleMouseMove}
       >
         <img
           src={highRes}
@@ -45,6 +82,9 @@ const Image = ({ name, gridColumn, margin }) => {
             height: "auto",
             objectFit: "cover",
             display: "block",
+            transform: `translate(${renderTransform.x}px, ${renderTransform.y}px) scale(1.05)`,
+            transition: isHovered ? "none" : "transform 0.3s ease",
+            willChange: "transform",
           }}
         />
       </div>
