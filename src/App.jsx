@@ -18,9 +18,7 @@ function App() {
       <ReactLenis root />
       <Cursor />
       <main>
-        <p className="read-the-docs">
-          Agrofeenz tycoon
-        </p>
+        
         <section>
           <Layer>
             <Image gridColumn="1 /6 " name="errance_01"/>

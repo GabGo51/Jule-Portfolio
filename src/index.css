@@ -1,5 +1,5 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   font-synthesis: none;
@@ -8,7 +8,29 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Use the font face only when it's loaded */
+* {
+  font-family: 'Helvetica', sans-serif;
+}
 
+.bold {
+  font-family: 'Helvetica Bold', sans-serif;
+  font-weight: 700;
+  font-size: clamp(1rem, 2vw, 2rem); /* responsive font size */
+  line-height: 1.2;
+}
 
+@font-face {
+  font-family: 'Helvetica';
+  src: url('/fonts/Helvetica.ttc') format('truetype-collection');
+  font-weight: 400;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'Helvetica Bold';
+  src: url('/fonts/HelveticaLTStd-Blk.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
 
