@@ -100,10 +100,10 @@ const Image = ({ name, gridColumn, margin }) => {
         }}
         className="img-text"
       >
-        <p className="title">{images[name].titleFr || "Titre ici"}</p>
-        <p className="type">{images[name].typeFr || "Titre ici"}</p>
-        <p className="shoutout">{images[name].shoutoutFr || "Titre ici"}</p>
-        <p className="year">{images[name].year || "Titre ici"}</p>
+        <p className="title">{images[name].titleFr}</p>
+        <p className="type">{images[name].typeFr}</p>
+        <p className="shoutout">{images[name].shoutoutFr}</p>
+        <p className="year">{images[name].year}</p>
       </div>
     </div>
   );
