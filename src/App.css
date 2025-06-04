@@ -32,11 +32,13 @@ label {
   justify-content: space-between;
   row-gap: 0px;
   column-gap: 8px;
+  padding-top: 10px;
   
 
-  .title, .shoutout {
+  .title, .contexte{
     text-align: start;
     width: calc(50% - 4px); /* 2 items per row, minus gap compensation */
+    line-height: 13px;
     font-size: 14px;
     color: #333;
     margin: 0;
@@ -46,6 +48,7 @@ label {
     text-align: end;
     width: calc(50% - 4px); /* 2 items per row, minus gap compensation */
     font-size: 14px;
+    line-height: 13px;
     color: #333;
     margin: 0;
   }

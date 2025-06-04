@@ -63,7 +63,7 @@ const Image = ({ name, gridColumn, margin }) => {
       >
         <p className="title">{images[name].titleFr}</p>
         <p className="type">{images[name].typeFr}</p>
-        <p className="shoutout">{images[name].shoutoutFr}</p>
+        <p className="contexte">{images[name].contextFr}</p>
         <p className="year">{images[name].year}</p>
       </div>
     </div>
