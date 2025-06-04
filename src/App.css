@@ -2,15 +2,15 @@
   text-align: center;
 }
 
-*,
+/* *,
 *:before,
 *:after {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   cursor: none;
-}
+} */
 
-body,
+/* body,
 a,
 button,
 input,
@@ -18,7 +18,7 @@ textarea,
 select,
 label {
   cursor: none !important;
-}
+} */
 
 .layer {
   display: grid;
@@ -37,7 +37,7 @@ label {
 
   .title, .contexte{
     text-align: start;
-    width: calc(50% - 4px); /* 2 items per row, minus gap compensation */
+    width: calc(100% - 4px); /* 2 items per row, minus gap compensation */
     line-height: 13px;
     font-size: 14px;
     color: #333;

@@ -1,6 +1,6 @@
 import React, { useState, useContext, useEffect } from "react";
 import "./App.css";
-import Cursor from "./Cursor";
+// import Cursor from "./Cursor";
 import { MouseContext } from "./context/mouseContext";
 import Layer from "./components/Layer";
 import Image from "./components/Image";
@@ -27,7 +27,7 @@ function App() {
   return (
     <>
       <ReactLenis root />
-      <Cursor />
+      {/* <Cursor /> */}
       <main>
         <p className="bold">
           ÉCRIVEZ MOI AU JJJULES.N@GMAIL.COM AU POUR TOUT PROJET DE TYPOGRAPHIE,
@@ -36,9 +36,9 @@ function App() {
           AU JJJULES.N@GMAIL.COM. 
         </p>
         <div className="nav">
-          <p className="bold">merci,</p>
+          
           <p className="bold">jules :&#41;</p>
-          <p className="specialvodoo bold">en\fr</p>
+          
         </div>
         <section>
           <Layer>
