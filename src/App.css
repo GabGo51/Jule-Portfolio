@@ -20,7 +20,7 @@
   width: 100%;
   margin: 0;                 /* Remove all margins */
   padding: 0;                /* Reset padding */
-  font-size: clamp(12px, 1.5vw, 18px);  /* Responsive font size */
+  font-size: clamp(10px, 1.5vw, 16px);  /* Responsive font size */
   line-height: 0.9;
   color: #333;
 }

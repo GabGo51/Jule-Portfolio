@@ -15,9 +15,9 @@
 
 .bold {
   font-family: Helvetica XBold, sans-serif;
-  font-size:1.796vw; 
+  font-size:1.85vw; 
   line-height: 0.98; 
-  letter-spacing: 0.02em; 
+  letter-spacing: 0em; 
   /* text-align: left; */
   margin: 0 auto;
   white-space: normal;
