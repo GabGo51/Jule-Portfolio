@@ -31,8 +31,8 @@ function App() {
       {/* <Cursor /> */}
       <main>
         <p className="bold">
-          POUR TOUT PROJETS D’IMAGE DE MARQUE, DE TYPOGRAPHIE, D’ANIMATION, D’EMBALLAGE, 
-          DE PHOTOGRAPHIE, D’ÉDITION, DE MODÉLISATION OU D’INTERACTIVITÉ, ÉCRIVEZ-MOI AU 
+          POUR TOUT PROJETS D’IMAGE DE MARQUE, DE TYPOGRAPHIE, D’EMBALLAGE, D’ANIMATION,
+          D'ÉDITION, DE PHOTOGRAPHIE, DE MODÉLISATION OU D’INTERACTIVITÉ, CONTACTEZ-MOI AU 
         </p>
         <div className="nav">
           <p className="bold">jjjules.n@gmail.com :&#41;</p>
@@ -64,8 +64,10 @@ function App() {
             <Image gridColumn="9 /13 " name="triplex_03" margin="40%" />
           </Layer>
           <Layer>
-            <Image gridColumn="2 /6 " name="triplex_02" margin="-80%" />
-            <Video gridColumn="7 /13 " name="Ada" margin="" />
+            <Image gridColumn="8 /12 " name="triplex_02" margin="-80%" />
+          </Layer>
+          <Layer>
+            <Video gridColumn="1 /7 " name="Ada" margin="" />
           </Layer>
           <Layer>
             <Video gridColumn="2 /12 " name="foil_01" margin="" />
@@ -143,7 +145,7 @@ function App() {
           className="bold return-to-top"
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           aria-label="Return to top of page"
-          style={{ cursor: "pointer", background: "none", border: "none", padding: 0 }}
+          style={{ cursor: "pointer", background: "none", border: "none", padding: 0, marginTop: '10rem' }}
         >
           RETOUR
         </button>
