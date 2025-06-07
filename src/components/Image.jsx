@@ -6,7 +6,6 @@ const Image = ({ name, gridColumn, margin }) => {
   const { hover, normal } = useContext(MouseContext);
   const [isHovered, setIsHovered] = useState(false);
   
-
   if (!images[name]) {
     return <div>Image not found: {name}</div>;
   }
@@ -14,11 +13,9 @@ const Image = ({ name, gridColumn, margin }) => {
   const lowRes = images[name].lowRes;
   const highRes = images[name].highRes;
 
-  
   return (
     <div style={{ gridColumn: gridColumn }}>
       <div
-        
         style={{
           marginTop: margin,
           backgroundImage: `url(${lowRes})`,
@@ -31,14 +28,11 @@ const Image = ({ name, gridColumn, margin }) => {
         onMouseEnter={() => {
           hover();
           setIsHovered(true);
-          
         }}
         onMouseLeave={() => {
           normal();
           setIsHovered(false);
-          
         }}
-        
       >
         <img
           src={highRes}
@@ -63,8 +57,7 @@ const Image = ({ name, gridColumn, margin }) => {
       >
         <p className="title">{images[name].titleFr}</p>
         <p className="type">{images[name].typeFr}</p>
-        <p className="contexte">{images[name].contextFr}</p>
-        <p className="year">{images[name].year}</p>
+        <p className="context">{images[name].contextFr}</p>
       </div>
     </div>
   );

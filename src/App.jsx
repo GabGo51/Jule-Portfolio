@@ -30,14 +30,12 @@ function App() {
       {/* <Cursor /> */}
       <main>
         <p className="bold">
-          ÉCRIVEZ MOI AU JJJULES.N@GMAIL.COM AU POUR TOUT PROJET DE TYPOGRAPHIE,
-          D’IMAGE DE MARQUE, D’ANIMATION, D’EMBALLAGE, DE PHOTOGRAPHIE,
-          D’ÉDITION, DE MODÉLISATION, D’INTERACTIVITÉ OU D’OBJET. CONTACTEZ MOI
-          AU JJJULES.N@GMAIL.COM. 
+          POUR TOUT PROJETS D’IMAGE DE MARQUE, DE TYPOGRAPHIE, D’ANIMATION, D’EMBALLAGE, 
+          DE PHOTOGRAPHIE, D’ÉDITION, DE MODÉLISATION OU D’INTERACTIVITÉ, ÉCRIVEZ-MOI AU 
         </p>
         <div className="nav">
           
-          <p className="bold">jules :&#41;</p>
+          <p className="bold">jjjules.n@gmail.com :&#41;</p>
           
         </div>
         <section>
@@ -47,9 +45,13 @@ function App() {
           </Layer>
           <Layer>
             <Video gridColumn="2 /11 " name="nuitblue_03" margin="" />
+            <Image gridColumn="3 /7 " name="nuitblue_01" /> 
           </Layer>
           <Layer>
-            <Image gridColumn="3 /7 " name="nuitblue_01" />
+            <Video gridColumn="2 /11 " name="mapp_02" margin="" />
+            <Video gridColumn="3 /7 " name="mapp_03" /> 
+          </Layer>
+          <Layer>
             <Image gridColumn="8 /13 " name="wales_01" margin="40%" />
           </Layer>
           <Layer>

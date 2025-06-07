@@ -59,8 +59,7 @@ const Video = ({ name, gridColumn, margin }) => {
       >
         <p className="title">{images[name].titleFr }</p>
         <p className="type">{images[name].typeFr }</p>
-        <p className="shoutout">{images[name].shoutoutFr }</p>
-        <p className="year">{images[name].year}</p>
+        <p className="context">{images[name].contextFr }</p>
       </div>
     </div>
   );

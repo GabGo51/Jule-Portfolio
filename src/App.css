@@ -1,24 +1,6 @@
 #root {
-  text-align: center;
+  text-align: left;
 }
-
-/* *,
-*:before,
-*:after {
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  cursor: none;
-} */
-
-/* body,
-a,
-button,
-input,
-textarea,
-select,
-label {
-  cursor: none !important;
-} */
 
 .layer {
   display: grid;
@@ -27,36 +9,23 @@ label {
 }
 
 .img-text {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  row-gap: 0px;
-  column-gap: 8px;
-  padding-top: 10px;
-  
-
-  .title, .contexte{
-    text-align: start;
-    width: calc(100% - 4px); /* 2 items per row, minus gap compensation */
-    line-height: 13px;
-    font-size: 14px;
-    color: #333;
-    margin: 0;
-  }
-
-  .type, .year {
-    text-align: end;
-    width: calc(50% - 4px); /* 2 items per row, minus gap compensation */
-    font-size: 14px;
-    line-height: 13px;
-    color: #333;
-    margin: 0;
-  }
-
-  .year{
-    transform: translateX(10%);
-  }
-
-
+  padding-top: clamp(6px, 1vw, 12px);
+  text-align: left;
 }
 
+/* Text styling for all metadata lines */
+.img-text .title,
+.img-text .type,
+.img-text .context {
+  width: 100%;
+  margin: 0;                 /* Remove all margins */
+  padding: 0;                /* Reset padding */
+  font-size: clamp(12px, 1.5vw, 18px);  /* Responsive font size */
+  line-height: 0.9;
+  color: #333;
+}
+
+/* Slightly more spacing above context, responsive */
+.img-text .context {
+  padding-top: clamp(4px, 0.8vw, 10px);
+}
