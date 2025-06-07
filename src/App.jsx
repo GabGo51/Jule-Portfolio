@@ -104,7 +104,7 @@ function App() {
             <Video gridColumn="8 /13 " name="mtnslab_04" margin="-20%" />
           </Layer>
           <Layer>
-            <Video gridColumn="5 /12 " name="mtnslab_03" margin="0%" />
+            <Video gridColumn="6 /12 " name="mtnslab_03" margin="0%" />
           </Layer>
           <Layer>
             <Image gridColumn="1 /7 " name="chimie_05" margin="0%" />
@@ -117,7 +117,7 @@ function App() {
             <Image gridColumn="6 /11 " name="chimie_04" margin="0%" />
           </Layer>
           <Layer>
-            <Image gridColumn="1 /4 " name="mamie_01" margin="-100%" />
+            <Image gridColumn="1 /4 " name="mamie_02" margin="-100%" />
           </Layer>
           <Layer>
             <Video gridColumn="3 /13 " name="SBP_01" margin="0%" />
