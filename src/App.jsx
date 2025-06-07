@@ -49,22 +49,22 @@ function App() {
           <Layer>
             <Video gridColumn="4 /13 " name="mapp_02" margin="10%" /> 
             <Video gridColumn="3 /6" name="mapp_03" margin="30%" /> 
-            <Image gridColumn="8 /13 " name="wales_01" margin="40%" />
+            <Image gridColumn="8 /13 " name="wales_01" margin="80%" />
           </Layer>
           <Layer>
-            <Image gridColumn="2 /6 " name="anatolie_03" />
-            <Image gridColumn="7 /13 " name="anatolie_02" margin="90%" />
+            <Image gridColumn="2 /6 " name="anatolie_03" margin="-20%" />
+            <Image gridColumn="7 /13 " name="anatolie_02" margin="60%" />
           </Layer>
           <Layer>
-            <Image gridColumn="1 /6 " name="anatolie_01" margin="-60%" />
-            <Image gridColumn="7 /12 " name="anatolie_04" margin="40%" />
+            <Image gridColumn="2 /6 " name="anatolie_01" margin="-30%" />
+            <Image gridColumn="4 /12 " name="anatolie_04" margin="10%" />
           </Layer>
           <Layer>
-            <Image gridColumn="2 /8 " name="triplex_01" margin="60%" />
-            <Image gridColumn="9 /13 " name="triplex_03" margin="40%" />
+            <Image gridColumn="1 /8 " name="triplex_01" margin="80%" />
+            <Image gridColumn="10 /13 " name="triplex_03" margin="20%" />
           </Layer>
           <Layer>
-            <Image gridColumn="8 /12 " name="triplex_02" margin="-80%" />
+            <Image gridColumn="8 /12 " name="triplex_04" margin="-80%" />
           </Layer>
           <Layer>
             <Video gridColumn="1 /7 " name="Ada" margin="" />
