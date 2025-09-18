@@ -47,9 +47,10 @@
   display:flex;
   width: 100%;
   justify-content: space-between;
-  p, button{
+  a, button{
     margin: 0;
     font-weight: bold;
+    color: black;
   }
 
   button{

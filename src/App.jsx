@@ -1,6 +1,5 @@
 import React, { useState, useContext, useEffect } from "react";
-import "./App.css";
-// import Cursor from "./Cursor";
+import "./styles/App.css";
 import { MouseContext } from "./context/mouseContext";
 import Layer from "./components/Layer";
 import Image from "./components/Image";
@@ -35,24 +34,33 @@ function App() {
       <main>
         <p className="bold">{Intro.intro[lang]}</p>
         <div className="nav">
-          <p className="bold">jjjules.n@gmail.com :&#41;</p>
+          <a
+            href="mailto:jjjules.n@gmail.com"
+            className="bold cursor-pointer hover:underline"
+          >
+            jjjules.n@gmail.com :)
+          </a>
           <div>
-            <button className="bold" onClick={() => setLang("fr")}>FR</button>
-            <button className="bold" onClick={() => setLang("en")}>EN</button>
+            <button className="bold" onClick={() => setLang("fr")}>
+              FR
+            </button>
+            <button className="bold" onClick={() => setLang("en")}>
+              EN
+            </button>
           </div>
         </div>
         <section>
           <Layer>
-            <Image gridColumn="1 /6 " name="errance_01"  />
+            <Image gridColumn="1 /6 " name="errance_01" />
             <Image gridColumn="7 /13 " name="nuitblue_02" margin="50%" />
           </Layer>
           <Layer>
             <Video gridColumn="2 /11 " name="nuitblue_03" margin="" />
-            <Image gridColumn="3 /7 " name="nuitblue_01" margin="10%" /> 
+            <Image gridColumn="3 /7 " name="nuitblue_01" margin="10%" />
           </Layer>
           <Layer>
-            <Video gridColumn="4 /13 " name="mapp_02" margin="10%" /> 
-            <Video gridColumn="3 /6" name="mapp_03" margin="30%" /> 
+            <Video gridColumn="4 /13 " name="mapp_02" margin="10%" />
+            <Video gridColumn="3 /6" name="mapp_03" margin="30%" />
             <Image gridColumn="8 /13 " name="wales_01" margin="80%" />
           </Layer>
           <Layer>
@@ -149,7 +157,13 @@ function App() {
           className="bold return-to-top"
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           aria-label="Return to top of page"
-          style={{ cursor: "pointer", background: "none", border: "none", padding: 0, marginTop: '10rem' }}
+          style={{
+            cursor: "pointer",
+            background: "none",
+            border: "none",
+            padding: 0,
+            marginTop: "10rem",
+          }}
         >
           RETOUR
         </button>
