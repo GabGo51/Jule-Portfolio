@@ -44,7 +44,17 @@
   align-items: start;
   align-content: start;
   text-align: start;
+  display:flex;
+  width: 100%;
+  justify-content: space-between;
+  p, button{
+    margin: 0;
+    font-weight: bold;
+  }
 
-  
+  button{
+    background-color: transparent;
+    border: none;
+  }
 }
 

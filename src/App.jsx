@@ -6,10 +6,13 @@ import Layer from "./components/Layer";
 import Image from "./components/Image";
 import Video from "./components/Video";
 import { ReactLenis, useLenis } from "lenis/react";
+import { useLanguage } from "./context/languageContext";
+import Intro from "./data/intro.json";
 
 function App() {
   const { hover, normal } = useContext(MouseContext);
   const lenis = useLenis();
+  const { lang, setLang } = useLanguage();
 
   useEffect(() => {
     if (!lenis) return;
@@ -30,12 +33,13 @@ function App() {
       <ReactLenis root />
       {/* <Cursor /> */}
       <main>
-        <p className="bold">
-          POUR TOUT PROJETS D’IMAGE DE MARQUE, DE TYPOGRAPHIE, D’EMBALLAGE, D’ANIMATION,
-          D'ÉDITION, DE PHOTOGRAPHIE, DE MODÉLISATION OU D’INTERACTIVITÉ, CONTACTEZ-MOI AU 
-        </p>
+        <p className="bold">{Intro.intro[lang]}</p>
         <div className="nav">
           <p className="bold">jjjules.n@gmail.com :&#41;</p>
+          <div>
+            <button className="bold" onClick={() => setLang("fr")}>FR</button>
+            <button className="bold" onClick={() => setLang("en")}>EN</button>
+          </div>
         </div>
         <section>
           <Layer>

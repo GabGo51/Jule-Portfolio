@@ -1,10 +1,12 @@
 import React, { useContext, useState, useEffect, useRef } from "react";
 import images from "../data/data.json";
 import { MouseContext } from "../context/mouseContext";
+import { useLanguage } from "../context/languageContext";
 
 const Image = ({ name, gridColumn, margin }) => {
   const { hover, normal } = useContext(MouseContext);
   const [isHovered, setIsHovered] = useState(false);
+  const { lang, setLang } = useLanguage();
   
   if (!images[name]) {
     return <div>Image not found: {name}</div>;
@@ -12,6 +14,10 @@ const Image = ({ name, gridColumn, margin }) => {
 
   const lowRes = images[name].lowRes;
   const highRes = images[name].highRes;
+
+  const titleKey = lang === "fr" ? "titleFr" : "titleEn";
+  const typeKey = lang === "fr" ? "typeFr" : "typeEn";
+  const contextKey = lang === "fr" ? "contextFr" : "contextEn";
 
   return (
     <div style={{ gridColumn: gridColumn }}>
@@ -55,9 +61,9 @@ const Image = ({ name, gridColumn, margin }) => {
         }}
         className="img-text"
       >
-        <p className="title">{images[name].titleFr}</p>
-        <p className="type">{images[name].typeFr}</p>
-        <p className="context">{images[name].contextFr}</p>
+        <p className="title">{images[name][titleKey]}</p>
+        <p className="type">{images[name][typeKey]}</p>
+        <p className="context">{images[name][contextKey]}</p>
       </div>
     </div>
   );

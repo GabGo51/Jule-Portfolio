@@ -1,16 +1,22 @@
 import React, { useContext, useState } from "react";
 import images from "../data/data.json";
 import { MouseContext } from "../context/mouseContext";
+import { useLanguage } from "../context/languageContext";
 
 const Video = ({ name, gridColumn, margin }) => {
   const { hover, normal } = useContext(MouseContext);
   const [isHovered, setIsHovered] = useState(false);
-
+  const { lang, setLang } = useLanguage();
+  
   if (!images[name]) {
     return <div>Image not found: {name}</div>;
   }
 
   const src = images[name].mp4;
+
+  const titleKey = lang === "fr" ? "titleFr" : "titleEn";
+  const typeKey = lang === "fr" ? "typeFr" : "typeEn";
+  const contextKey = lang === "fr" ? "contextFr" : "contextEn";
   
 
   return (
@@ -57,9 +63,9 @@ const Video = ({ name, gridColumn, margin }) => {
         }}
         className="img-text"
       >
-        <p className="title">{images[name].titleFr }</p>
-        <p className="type">{images[name].typeFr }</p>
-        <p className="context">{images[name].contextFr }</p>
+        <p className="title">{images[name][titleKey]}</p>
+        <p className="type">{images[name][typeKey]}</p>
+        <p className="context">{images[name][contextKey]}</p>
       </div>
     </div>
   );
