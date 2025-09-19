@@ -4,7 +4,7 @@ import React, { createContext, useContext, useState } from "react";
 const LanguageContext = createContext();
 
 export function LanguageProvider({ children }) {
-  const [lang, setLang] = useState("en"); // default is English
+  const [lang, setLang] = useState("fr"); // default is English
 
   return (
     <LanguageContext.Provider value={{ lang, setLang }}>

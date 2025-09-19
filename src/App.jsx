@@ -17,7 +17,7 @@ function App() {
     if (!lenis) return;
 
     const onScroll = (e) => {
-      console.log("scroll event", e);
+      
     };
 
     lenis.on("scroll", onScroll);
