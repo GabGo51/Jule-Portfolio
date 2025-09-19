@@ -165,7 +165,7 @@ function App() {
             marginTop: "10rem",
           }}
         >
-          RETOUR
+          {lang === "fr" ? "RETOUR" : "TOP"}
         </button>
       </main>
     </>
