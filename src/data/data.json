@@ -42,32 +42,12 @@
   "chimie_01": {
     "lowRes": "/img/lowres/chimie_01.jpg",
     "highRes": "/img/highres/chimie_01.jpg",
-    "titleFr": "système de son",
-    "titleEn": "sound system",
-    "typeFr": "avec rémy shepherd & stéphanie at-arneault",
-    "typeEn": "with rémy shepherd & stéphanie at-arneault",
-    "contextFr": "atelier offert par tom chung",
-    "contextEn": "workshop with tom chung"
-  },
-  "chimie_04": {
-    "lowRes": "/img/lowres/chimie_04.jpg",
-    "highRes": "/img/highres/chimie_04.jpg",
-   "titleFr": "système de son",
-    "titleEn": "sound system",
-    "typeFr": "avec rémy shepherd & stéphanie at-arneault",
-    "typeEn": "with rémy shepherd & stéphanie at-arneault",
-    "contextFr": "atelier offert par tom chung",
-    "contextEn": "workshop with tom chung"
-  },
-  "chimie_05": {
-    "lowRes": "/img/lowres/chimie_05.jpg",
-    "highRes": "/img/highres/chimie_05.jpg",
-    "titleFr": "système de son",
-    "titleEn": "sound system",
-    "typeFr": "avec rémy shepherd & stéphanie at-arneault",
-    "typeEn": "with rémy shepherd & stéphanie at-arneault",
-    "contextFr": "atelier offert par tom chung",
-    "contextEn": "workshop with tom chung"
+    "titleFr": "campagne photo",
+    "titleEn": "photo campaign",
+    "typeFr": "avec alexandra nicolov",
+    "typeEn": "with alexandra nicolov",
+    "contextFr": "pour chimie, une parfumerie, 2024",
+    "contextEn": "for chimie scents, 2024"
   },
   "errance_01": {
     "lowRes": "/img/lowres/errance_01.jpg",
@@ -84,16 +64,6 @@
     "highRes": "/img/highres/etape_01.jpg",
     "mp4": "/img/mp4/etape_01.mp4",
     "titleFr": "habillage d'un évènement  ",
-    "titleEn": "branding for a event",
-    "typeFr": "avec thomas berthomier, samuel chevalier & samuel fortin",
-    "typeEn": "with thomas berthomier, samuel chevalier & samuel fortin",
-    "contextFr": "2023",
-    "contextEn": "2023"
-  },
-  "etape_03": {
-    "lowRes": "/img/lowres/etape_03.jpg",
-    "highRes": "/img/highres/etape_03.jpg",
-    "titleFr": "habillage d'un évenement ",
     "titleEn": "branding for a event",
     "typeFr": "avec thomas berthomier, samuel chevalier & samuel fortin",
     "typeEn": "with thomas berthomier, samuel chevalier & samuel fortin",
@@ -127,16 +97,6 @@
     "titleEn": "inflatable type",
     "typeFr": "réalisé dans blender",
     "typeEn": "created in blender",
-    "contextFr": "2023",
-    "contextEn": "2023"
-  },
-  "mamie_02": {
-    "lowRes": "/img/lowres/mamie_02.jpg",
-    "highRes": "/img/highres/mamie_02.jpg",
-    "titleFr": "photographie",
-    "titleEn": "photography",
-    "typeFr": "pour suzanne",
-    "typeEn": "for suzanne",
     "contextFr": "2023",
     "contextEn": "2023"
   },
@@ -259,6 +219,26 @@
     "typeEn": "wales",
     "contextFr": "2024",
     "contextEn": "2024"
+  },
+  "jackalope_01": {
+    "lowRes": "/img/lowres/jackalope_01.jpg",
+    "highRes": "/img/highres/jackalope_01.jpg",
+    "titleFr": "habillage d'une compétition d'escalade",
+    "titleEn": "branding for a climbing competition",
+    "typeFr": "pour jackalope, organisé par allez up",
+    "typeEn": "for jackalope, organised by allez up",
+    "contextFr": "2025",
+    "contextEn": "2025"
+  },
+  "jackalope_02": {
+    "lowRes": "/img/lowres/jackalope_02.jpg",
+    "highRes": "/img/highres/jackalope_02.jpg",
+    "titleFr": "habillage d'une compétition d'escalade",
+    "titleEn": "branding for a climbing competition",
+    "typeFr": "pour jackalope, organisé par allez up",
+    "typeEn": "for jackalope, organised by allez up",
+    "contextFr": "2025",
+    "contextEn": "2025"
   },
   "Ada": {
     "mp4": "/img/mp4/Ada.mp4",
@@ -394,5 +374,32 @@
     "typeEn": "baillat studio",
     "contextFr": "2024",
     "contextEn": "2024"
-    }
+  },
+  "mutek_01": {
+    "mp4": "/img/mp4/mutek_01.mp4",
+    "titleFr": "visuels pour mutek mtl",
+    "titleEn": "visuals for mutek mtl",
+    "typeFr": "baillat studio",
+    "typeEn": "baillat studio",
+    "contextFr": "2024",
+    "contextEn": "2024"
+  },
+  "bioitalia_01": {
+    "mp4": "/img/mp4/bioitalia_01.mp4",
+    "titleFr": "image de marque & emballage pour bioitalia",
+    "titleEn": "rebrand & packaging for bioitalia",
+    "typeFr": "martha studio",
+    "typeEn": "martha studio",
+    "contextFr": "2025",
+    "contextEn": "2025"  
+  },
+  "jackalope_03": {
+    "mp4": "/img/mp4/jackalope_03.mp4",
+    "titleFr": "habillage d'une compétition d'escalade",
+    "titleEn": "branding for a climbing competition",
+    "typeFr": "pour jackalope, organisé par allez up",
+    "typeEn": "for jackalope, organised by allez up",
+    "contextFr": "2025",
+    "contextEn": "2025"
+  }    
 }

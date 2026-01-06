@@ -29,3 +29,7 @@
 .img-text .context {
   padding-top: clamp(4px, 0.8vw, 10px);
 }
+
+.scripttype {
+font-family: Porcelain;
+}

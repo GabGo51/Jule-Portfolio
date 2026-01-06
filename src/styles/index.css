@@ -38,6 +38,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Porcelain';
+  src: url('/fonts/PORCELAI.TTF') format('TrueType');
+  font-weight: 700;
+  font-style: normal;
+}
+
 .nav{
   width: 100%;
   margin-bottom: 12%;

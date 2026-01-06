@@ -38,7 +38,7 @@ function App() {
             href="mailto:jjjules.n@gmail.com"
             className="bold cursor-pointer hover:underline"
           >
-            jjjules.n@gmail.com :)
+            jjjules.n@gmail.com gouene
           </a>
           <div>
             <button className="bold" onClick={() => setLang("fr")}>
@@ -72,6 +72,7 @@ function App() {
             <Image gridColumn="4 /12 " name="anatolie_04" margin="10%" />
           </Layer>
           <Layer>
+            <Image gridColumn="1 /6 " name="bioitalia_01" margin="20%" />
             <Image gridColumn="1 /8 " name="triplex_01" margin="80%" />
             <Image gridColumn="10 /13 " name="triplex_03" margin="20%" />
           </Layer>
@@ -117,19 +118,10 @@ function App() {
           </Layer>
           <Layer>
             <Video gridColumn="6 /12 " name="mtnslab_03" margin="0%" />
-          </Layer>
-          <Layer>
-            <Image gridColumn="1 /7 " name="chimie_05" margin="0%" />
-            <Image gridColumn="10 /13 " name="img_01" margin="30%" />
+            <Image gridColumn="1 /5 " name="img_01" margin="60%" />
           </Layer>
           <Layer>
             <Image gridColumn="3 /12 " name="chimie_01" margin="0%" />
-          </Layer>
-          <Layer>
-            <Image gridColumn="6 /11 " name="chimie_04" margin="0%" />
-          </Layer>
-          <Layer>
-            <Image gridColumn="1 /4 " name="mamie_02" margin="-100%" />
           </Layer>
           <Layer>
             <Video gridColumn="3 /13 " name="SBP_01" margin="0%" />
@@ -141,7 +133,7 @@ function App() {
             <Video gridColumn="4 /12 " name="etape_01" margin="0%" />
           </Layer>
           <Layer>
-            <Image gridColumn="1 /6 " name="etape_03" margin="0%" />
+            <Image gridColumn="1 /6 " name="mutek_01" margin="0%" />
             <Video gridColumn="8 /13 " name="mayman_03" margin="30%" />
           </Layer>
           <Layer>
